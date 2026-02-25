@@ -1,0 +1,32 @@
+# Environnement virtuel
+venv/
+env/
+ENV/
+myenv/
+
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Données (trop volumineuses)
+data/*.csv
+graphs/*.png
+reports/*.txt
+
+# Modèles (optionnel - peut être trop volumineux)
+models/*.pkl
+models/*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
